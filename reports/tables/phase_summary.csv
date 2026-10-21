@@ -1,0 +1,5 @@
+phase,avg_rate,min_rate,max_rate,months,label
+Pre-COVID,7.55,7.04,8.11,10,Pre-COVID (before Mar 2020)
+Onset,8.76,8.76,8.76,1,Onset (Mar 2020)
+Lockdown,22.89,21.83,23.95,2,Lockdown (Apr-May 2020)
+Recovery,7.95,6.71,10.23,5,Recovery (Jun-Oct 2020)
