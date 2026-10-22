@@ -216,16 +216,5 @@ Every push to `main` redeploys automatically. On Render's free tier the service 
 - **Weights are estimated** from employed counts and unemployment rates because raw labour-force counts are not provided.
 - **Coverage:** 28 states/UTs, not all of India; some state-months are missing in the source.
 
-## Task requirements checklist
-
-CodeAlpha submission steps from the task brief:
-
-- [ ] Share your internship status on LinkedIn, tagging @CodeAlpha
-- [x] Source code in a GitHub repo named `CodeAlpha_ProjectName` (use `CodeAlpha_UnemploymentAnalysis`)
-- [ ] Post a video explanation on LinkedIn with the GitHub link
-- [ ] Submit through the form shared in your WhatsApp group
-- [ ] Complete at least 2 of the 4 tasks (a single task does not earn the certificate)
-
-## License
-
-Released under the [MIT License](LICENSE). The datasets are supplied by CodeAlpha for the internship task; check their terms before redistributing them.
+## Author
+Md. Tanjimul Islam — Data Science Intern at CodeAlpha GitHub: md-tanjimul-islam
