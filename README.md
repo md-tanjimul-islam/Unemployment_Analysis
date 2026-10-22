@@ -7,6 +7,11 @@ An end-to-end data science project that cleans, explores, tests and visualises m
 ![National unemployment trend](reports/figures/01_national_trend.png)
 
 ---
+## Live demo
+
+https://unemployment-analysis-26nx.onrender.com
+
+(Hosted on Render's free plan, so the first load after inactivity can take about 50 seconds. Health check: `/health`.)
 
 ## Table of contents
 
@@ -191,22 +196,6 @@ git remote add origin https://github.com/<your-username>/CodeAlpha_UnemploymentA
 git push -u origin main
 ```
 
-### 2. Deploy on Render
-
-**Option A, Blueprint (easiest):** in Render choose **New > Blueprint**, connect the GitHub repo, and Render reads `render.yaml` and creates the service.
-
-**Option B, manual:** **New > Web Service**, connect the repo, then set:
-
-| Setting | Value |
-|---|---|
-| Runtime | Python 3 |
-| Build command | `pip install -r requirements.txt` |
-| Start command | `streamlit run app.py --server.port $PORT --server.address 0.0.0.0` |
-| Health check path | `/_stcore/health` |
-| Environment variable | `PYTHON_VERSION` = `3.12.8` |
-| Instance type | Free |
-
-Every push to `main` redeploys automatically. On Render's free tier the service sleeps after inactivity, so the first visit after a pause takes about a minute to wake.
 
 ## Limitations
 
