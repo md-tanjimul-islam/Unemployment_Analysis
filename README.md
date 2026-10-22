@@ -216,5 +216,7 @@ Every push to `main` redeploys automatically. On Render's free tier the service 
 - **Weights are estimated** from employed counts and unemployment rates because raw labour-force counts are not provided.
 - **Coverage:** 28 states/UTs, not all of India; some state-months are missing in the source.
 
-## Author
-Md. Tanjimul Islam — Data Science Intern at CodeAlpha GitHub: md-tanjimul-islam
+##  Author
+
+**Md. Tanjimul Islam** — Data Science Intern at CodeAlpha
+GitHub: [md-tanjimul-islam](https://github.com/md-tanjimul-islam)
